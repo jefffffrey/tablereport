@@ -8,7 +8,7 @@ import setuptools
 setuptools.setup(
     name = "tablereport",
     version = "0.1",
-    packages = ['tablereport'],
+    packages = ['tablereport','tablereport/writer'],
     install_requires = [
     'openpyxl',
     'pytest-cov',
