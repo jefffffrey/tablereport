@@ -11,7 +11,7 @@ A python library for making table report. Now supports exporting to Excel.
 ## Install 
 
 ```python
-pip install git+https://github.com/DevineLiu/tablereport.git@master
+pip install git+https://github.com/toaco/tablereport.git@master
 ```
 
 
