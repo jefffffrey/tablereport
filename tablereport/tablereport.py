@@ -74,7 +74,7 @@ class Table(object):
                         self._data[row_num][col_num] = Cell(
                             self._data[row_num][col_num],
                             style=style)
-                    self._auto_merge(self._data, row_num, col_num,self._flag)
+                    self._auto_merge(self._data, row_num, col_num, self._flag)
         self.areas = []
         self.total_row_nums = set()
         try:
